@@ -20,24 +20,6 @@ This Project is a Smart Home Surveillance system which will be activated by the 
 4.Tool : Eclipse <br />
 5.Database : MYSQL/navicat<br />
 
-## Installation
-
-1. Download the repository on your machine.<br/>
-2. Make sure you have Java Version : JDK 1.6 or above installed on your machine. For downloading [click here](https://www.oracle.com/in/java/technologies/javase-downloads.html).
-3. Download and install eclipse. For downloading [click here](https://www.eclipse.org/downloads/).
-4. Open a new workspace.
-5. Run Main.java which is present under src\userrecognition\Main.java
-6. Add a new user if not added yet and let the program train.
-<img src="/demo/New User Train.gif" width="500" height="500" />
-7. After adding a user choose your preferred algorithm and start the camera.
-<img src="demo/Start Camera.gif" width="500" height="500" />
-
-## Usage example
-
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
-
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
 ## Development setup
 
 #### Install OpenCV
@@ -60,27 +42,31 @@ In case of MacOS, if you installed OpenCV without Homebrew, you need to create a
 
 
 
+## Installation
 
-## Meta
+1. Download the repository on your machine.<br/>
+2. Make sure you have Java Version : JDK 1.6 or above installed on your machine. For downloading [click here](https://www.oracle.com/in/java/technologies/javase-downloads.html).
+3. Download and install eclipse. For downloading [click here](https://www.eclipse.org/downloads/).
+4. Open a new workspace.
+5. Run Main.java which is present under src\userrecognition\Main.java
+6. Add a new user if not added yet and let the program train.
+<img src="/demo/New User Train.gif" />
+7. After adding a user choose your preferred algorithm and start the camera.
+<img src="demo/Start Camera.gif" />
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+## Usage example
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+#### OUTPUT FOR UNKNOWN FACE RECOGNITION 
+When an unknown person is detected in the environment, the system smoothly recognizes the face as an unknown and continues to detect activity.
+<img src="demo/output for unknown face.PNG"/>
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+#### OUTPUT FOR OWNER FACE RECOGNITION 
+When the home owner is detected by the system, the system assumes the environment to be safe as a result the system is turned off.
+<img src="demo/output for owner face.PNG"/>
 
-## Contributing
+#### OUTPUT FOR MISSING OBJECT DETECTION
+In the ﬁrst image the laptop is placed in the room with other objects and in the second image the theif steals the laptop from its place. It leads to the detection of missing object from the frame.
+<img src="demo/output for missing object.PNG"/>
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
 
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+
