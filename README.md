@@ -44,28 +44,28 @@ In case of MacOS, if you installed OpenCV without Homebrew, you need to create a
 
 ## Installation
 
-1. Download the repository on your machine.<br/>
-2. Make sure you have Java Version : JDK 1.6 or above installed on your machine. For downloading [click here](https://www.oracle.com/in/java/technologies/javase-downloads.html).
-3. Download and install eclipse. For downloading [click here](https://www.eclipse.org/downloads/).
-4. Open a new workspace.
-5. Run Main.java which is present under src\userrecognition\Main.java
-6. Add a new user if not added yet and let the program train.
+#### 1. Download the repository on your machine.<br/>
+#### 2. Make sure you have Java Version : JDK 1.6 or above installed on your machine. For downloading [click here](https://www.oracle.com/in/java/technologies/javase-downloads.html).
+#### 3. Download and install eclipse. For downloading [click here](https://www.eclipse.org/downloads/).
+#### 4. Open a new workspace.
+#### 5. Run Main.java which is present under src\userrecognition\Main.java
+#### 6. Add a new user if not added yet and let the program train. <br />
 <img src="/demo/New User Train.gif" />
-7. After adding a user choose your preferred algorithm and start the camera.
+#### 7. After adding a user choose your preferred algorithm and start the camera. <br />
 <img src="demo/Start Camera.gif" />
 
 ## Usage example
 
 #### OUTPUT FOR UNKNOWN FACE RECOGNITION 
-When an unknown person is detected in the environment, the system smoothly recognizes the face as an unknown and continues to detect activity.
+When an unknown person is detected in the environment, the system smoothly recognizes the face as an unknown and continues to detect activity.<br />
 <img src="demo/output for unknown face.PNG"/>
 
 #### OUTPUT FOR OWNER FACE RECOGNITION 
-When the home owner is detected by the system, the system assumes the environment to be safe as a result the system is turned off.
+When the home owner is detected by the system, the system assumes the environment to be safe as a result the system is turned off.<br />
 <img src="demo/output for owner face.PNG"/>
 
 #### OUTPUT FOR MISSING OBJECT DETECTION
-In the ﬁrst image the laptop is placed in the room with other objects and in the second image the theif steals the laptop from its place. It leads to the detection of missing object from the frame.
+In the ﬁrst image the laptop is placed in the room with other objects and in the second image the theif steals the laptop from its place. It leads to the detection of missing object from the frame.<br />
 <img src="demo/output for missing object.PNG"/>
 
 
