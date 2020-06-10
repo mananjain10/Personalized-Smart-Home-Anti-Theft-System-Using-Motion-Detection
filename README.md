@@ -50,7 +50,7 @@ In case of MacOS, if you installed OpenCV without Homebrew, you need to create a
 #### 4. Open a new workspace.
 #### 5. Run Main.java which is present under src\userrecognition\Main.java
 #### 6. Add a new user if not added yet and let the program train. <br />
-<img src="/demo/New User Train.gif" />
+<img src="/demo/New User Train.gif" /> <br />
 #### 7. After adding a user choose your preferred algorithm and start the camera. <br />
 <img src="demo/Start Camera.gif" />
 
