@@ -28,7 +28,9 @@ This Project is a Smart Home Surveillance system which will be activated by the 
 4. Open a new workspace.
 5. Run Main.java which is present under src\userrecognition\Main.java
 6. Add a new user if not added yet and let the program train.
+<img src="https://github.com/mananjain10/Personalized-Smart-Home-Anti-Theft-System-Using-Motion-Detection/tree/master/demo/New Camera Train.gif" width="100" height="100" />
 7. After adding a user choose your preferred algorithm and start the camera.
+<img src="https://github.com/mananjain10/Personalized-Smart-Home-Anti-Theft-System-Using-Motion-Detection/tree/master/demo/Start Camera.gif" width="100" height="100" />
 
 ## Usage example
 
