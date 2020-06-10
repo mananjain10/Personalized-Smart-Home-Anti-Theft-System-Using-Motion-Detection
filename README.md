@@ -1,5 +1,5 @@
 # Personalized-Smart-Home-Anti-Theft-System-Using-Motion-Detection
-This Project is a Smart Home Surveillance system which will be activated by the home owner when he/she is not present in the property.Once activated by user, if there is any malicious activity/motion , home owner will be alerted.And if the intruder tries to steal any object the owner will receive image of the object missing. Means of alert will be an email which will be sent on the registered email id .The system will show us whether the person in the environment is known or unknown. This project is an initiative towards smart and easy surveillance which is cost and time efficient.
+This Project is a Smart Home Surveillance system which will be activated by the home owner when he/she is not present in the property. Once activated by user, if there is any malicious activity/motion , home owner will be alerted.And if the intruder tries to steal any object the owner will receive image of the object missing. Means of alert will be an email which will be sent on the registered email id .The system will show us whether the person in the environment is known or unknown. This project is an initiative towards smart and easy surveillance which is cost and time efficient.
 
 ![](header.png)
 
